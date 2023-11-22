@@ -1,0 +1,19 @@
+# avalilable envs: production, development and test
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: <%= ENV.fetch('ZION_DATABASE_HOST', 'zion_postgres') %>
+  port: <%= ENV.fetch('ZION_DATABASE_PORT', '5432') %>
+
+development:
+  <<: *default
+  database: zion_dev
+  username: postgres
+  password: postgres
+
+test:
+  <<: *default
+  database: zion_test
+  username: postgres
+  password: postgres

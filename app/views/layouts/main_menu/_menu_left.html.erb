@@ -1,0 +1,15 @@
+<ul class="wraplist" style="height: auto;">
+  <%= menu_left_module(:administration, :group) do %>
+    <%= submenu('users', 'administration') %>
+    <%= submenu('countries', 'administration') %>
+    <%= submenu('congregateds', 'administration') %>
+    <%= submenu('churches', 'administration') %>
+    <%= submenu('jobs', 'administration') %>
+    <%= submenu('posts', 'administration') %>
+    <%= submenu('members', 'administration') %>
+  <% end %>
+  
+  <%= menu_left_module(:patrimony, :bank) do %>
+    <%= submenu('inventories', 'patrimony') %>
+  <% end %>
+</ul>

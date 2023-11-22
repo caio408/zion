@@ -1,0 +1,13 @@
+pt-BR:
+  activerecord:
+    models:
+      state:
+        one: 'Estado'
+        other: 'Estados'
+        profile_explain: ''
+
+    attributes:
+      state:
+        acronym: 'Sigla'
+        active: 'Ativo'
+        name: 'Nome'

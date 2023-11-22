@@ -1,0 +1,27 @@
+pt-BR:
+  activerecord:
+    models:
+      address:
+        one: 'Endereço'
+        other: 'Endereços'
+        profile_explain: ''
+
+    attributes:
+      address:
+        city_id: 'Cidade'
+        city: 'Cidade'
+        complement: 'Complemento'
+        district: 'Bairro'
+        lat: 'Latitude'
+        long: 'Longitude'
+        number: 'Número'
+        reference_point: 'Ponto de Referência'
+        street: 'Rua'
+        state: 'Estado'
+        zipcode: 'CEP'
+  form:
+    address:
+      city:
+        prompt: 'Digite um CEP ou Selecione um Estado'
+      state:
+        prompt: 'Selecione'

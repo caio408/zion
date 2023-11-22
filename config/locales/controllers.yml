@@ -1,0 +1,13 @@
+pt-BR:
+  controllers:
+    churches: 'Igrejas'
+    congregateds: 'Congregados'
+    countries: 'Países/Estados/Cidades'
+    inventories: 'Inventários'
+    jobs: 'Trabalhos'
+    members: 'Membros'
+    users: 'Usuários'
+    user_profiles: 'Perfil do Usuário'
+    posts: 'Cargos'
+    permits: 'Permissões'
+    stocks: 'Estoques'

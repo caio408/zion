@@ -1,0 +1,13 @@
+pt-BR:
+  activerecord:
+    models:
+      city:
+        one: 'Cidade'
+        other: 'Cidades'
+        profile_explain: ''
+
+    attributes:
+      city:
+        achronym: 'Sigla'
+        active: 'Ativo'
+        name: 'Nome'

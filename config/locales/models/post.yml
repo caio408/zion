@@ -1,0 +1,11 @@
+pt-BR:
+  activerecord:
+    models:
+      post:
+        one: 'Cargo'
+        other: 'Cargos'
+
+    attributes:
+      post:
+        classification: 'Classificação'
+        name: 'Nome'

@@ -1,0 +1,11 @@
+<%= box(t('crud.box.general_data'), additional_box_class: 'margin-show-box' ) do %>
+  <% [:name, :email, :birth_dt, :entry_dt, :baptized].each do |attribute| %>
+    <% if resource.respond_to? real_attribute(attribute) %>
+      <%= show_row(attribute) %>
+    <% end %>
+  <% end %>
+<% end %>
+
+<%= render 'shared/address_show' %>
+
+<%= render 'shared/phones_show' %>
