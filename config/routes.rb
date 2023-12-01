@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :songs
   devise_for :users,
     controllers: {
       passwords: 'devise/passwords',
@@ -12,6 +13,7 @@ Rails.application.routes.draw do
     resources :jobs, except: [:delete, :destroy]
     resources :posts, except: [:delete, :destroy]
     resources :members, except: [:delete, :destroy]
+    resources :songs, except: [:delete, :destroy]
 
     resources :countries, except: [:delete, :destroy] do
       resources :states, except: [:delete, :destroy] do

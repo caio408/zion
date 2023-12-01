@@ -1,0 +1,14 @@
+pt-BR:
+  activerecord:
+    models:
+      song:
+        one: "Musica"
+        other: "Musicas"
+        explain: ""
+
+    attributes:
+      song:
+        name: "Música"
+        title: "Autor"
+        content: "Escala"
+        active: "active"
